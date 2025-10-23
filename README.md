@@ -104,9 +104,63 @@ By completing the **ALEO Token** project, workshop participants learned to:
 * **Dependency:** `workshop_ofac.aleo`
 * **Platform:** Aleo Testnet
 * **Tools:** Aleo CLI
-* **Transaction ID:** `at13y7nflxrxfdyrz3rewhy9qndk4wfnw2fvusc9pjr2vcyh453x5zseqgkr2`
+* **Deployment Transaction ID:** `at13y7nflxrxfdyrz3rewhy9qndk4wfnw2fvusc9pjr2vcyh453x5zseqgkr2`
 * **Deployment Cost:** 5.607232 credits
 * **Status:** ✅ Successfully deployed and confirmed!
+
+## 🔄 Execution Transactions
+
+The following functions have been successfully executed on the Aleo Testnet to demonstrate token functionality:
+
+### 1. **Mint Public Function**
+- **Function:** `mint_public`
+- **Recipient:** `aleo172mutxfy3ur6nj76ldr42jwnspejeam5p5hwpwj9axt855sgecpsgzanaq`
+- **Amount:** 100 tokens
+- **Status:** ✅ Executed successfully
+- **Output:** Public balance mapping updated
+
+### 2. **Mint Private Function**
+- **Function:** `mint_private`
+- **Recipient:** `aleo172mutxfy3ur6nj76ldr42jwnspejeam5p5hwpwj9axt855sgecpsgzanaq`
+- **Amount:** 50 tokens (first execution), 75 tokens (second execution)
+- **Status:** ✅ Executed successfully
+- **Output:** Private token records created
+
+### 3. **Transfer Public Function**
+- **Function:** `transfer_public`
+- **Recipient:** `aleo1rzas7anzjune4qcm2e0pj5xr4c9lu280xluu53a6z8f8w800gvgqfjycv2`
+- **Amount:** 25 tokens
+- **Status:** ✅ Executed successfully
+- **Output:** Public balance transfer completed
+
+### 4. **Additional Mint Private Function**
+- **Function:** `mint_private`
+- **Recipient:** `aleo172mutxfy3ur6nj76ldr42jwnspejeam5p5hwpwj9axt855sgecpsgzanaq`
+- **Amount:** 75 tokens
+- **Status:** ✅ Executed successfully
+- **Output:** Additional private token record created
+
+**Note:** All execution transactions include OFAC compliance checks and have been verified to work correctly with the deployed smart contract.
+
+## 📋 Workshop Submission Checklist
+
+✅ **Deployment Complete**
+- Program deployed to Aleo Testnet
+- Deployment transaction ID recorded
+- All dependencies properly configured
+
+✅ **Function Execution Complete**
+- `mint_public` function executed and verified
+- `mint_private` function executed and verified  
+- `transfer_public` function executed and verified
+- Additional mint operations completed for demonstration
+
+✅ **Documentation Complete**
+- README updated with deployment details
+- Execution transactions documented
+- All workshop requirements fulfilled
+
+**Status:** 🎉 **READY FOR TUESDAY WORKSHOP CHECK-IN**
 
 **Build and Deploy Commands:**
 
