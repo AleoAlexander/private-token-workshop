@@ -112,35 +112,47 @@ By completing the **ALEO Token** project, workshop participants learned to:
 
 The following functions have been successfully executed on the Aleo Testnet to demonstrate token functionality:
 
-### 1. **Mint Public Function**
+### 1. **Mint Public Function** ✅
 - **Function:** `mint_public`
 - **Recipient:** `aleo172mutxfy3ur6nj76ldr42jwnspejeam5p5hwpwj9axt855sgecpsgzanaq`
 - **Amount:** 100 tokens
 - **Status:** ✅ Executed successfully
+- **Transaction ID:** `at1tn8r4w3fuesd8qdshsu2ugskuft3jq4t46fc72r6r4x9jvywwcqs78ewz0`
+- **Cost:** 0.003128 credits
 - **Output:** Public balance mapping updated
+- **OFAC Check:** ✅ Passed (workshop_ofac.aleo/address_check)
 
-### 2. **Mint Private Function**
+### 2. **Mint Private Function** ✅
 - **Function:** `mint_private`
 - **Recipient:** `aleo172mutxfy3ur6nj76ldr42jwnspejeam5p5hwpwj9axt855sgecpsgzanaq`
-- **Amount:** 50 tokens (first execution), 75 tokens (second execution)
+- **Amount:** 50 tokens
 - **Status:** ✅ Executed successfully
-- **Output:** Private token records created
+- **Transaction ID:** `at1nlxqkwc900n09xlutvnv9st8c4dn8049rme89f5de3y75p4rpsfqu6kn4j`
+- **Cost:** 0.002690 credits
+- **Output:** Private token record created with nonce: `4366298484647579109388107906678298314570193530492971430694116725592626495783group`
+- **OFAC Check:** ✅ Passed (workshop_ofac.aleo/address_check)
 
-### 3. **Transfer Public Function**
+### 3. **Transfer Public Function** ✅
 - **Function:** `transfer_public`
 - **Recipient:** `aleo1rzas7anzjune4qcm2e0pj5xr4c9lu280xluu53a6z8f8w800gvgqfjycv2`
 - **Amount:** 25 tokens
 - **Status:** ✅ Executed successfully
+- **Transaction ID:** `at1q2987s3xwmqmx2umuvduakqe9fh3h05fhjrcge3jmyj2m49geyqqp80pe7`
+- **Cost:** 0.003827 credits
 - **Output:** Public balance transfer completed
+- **OFAC Check:** ✅ Passed (workshop_ofac.aleo/address_check)
 
-### 4. **Additional Mint Private Function**
+### 4. **Additional Mint Private Function** ✅
 - **Function:** `mint_private`
 - **Recipient:** `aleo172mutxfy3ur6nj76ldr42jwnspejeam5p5hwpwj9axt855sgecpsgzanaq`
 - **Amount:** 75 tokens
 - **Status:** ✅ Executed successfully
-- **Output:** Additional private token record created
+- **Transaction ID:** `at17ws44ggtas7haq0vtke5rrcnp8c423jlutda97skyrqcscexeuqs36ad09`
+- **Cost:** 0.002690 credits
+- **Output:** Private token record created with nonce: `8387996679508681390536573174796877246500639414869252070506248131471566627764group`
+- **OFAC Check:** ✅ Passed (workshop_ofac.aleo/address_check)
 
-**Note:** All execution transactions include OFAC compliance checks and have been verified to work correctly with the deployed smart contract.
+**Verification:** All execution transactions include OFAC compliance checks and have been verified to work correctly with the deployed smart contract. The program successfully demonstrates both public and private token operations with integrated compliance.
 
 ## 📋 Workshop Submission Checklist
 
