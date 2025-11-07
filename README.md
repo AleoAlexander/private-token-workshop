@@ -50,6 +50,8 @@ You'll need some Testnet tokens to deploy and interact with programs onchain.  I
 #### `.env` File
 Once you've funded your account, return back to the Leo Playground with the project loaded in and open the `.env` file.  This file is where you can specify the network and endpoint to broadcast to, as well as the private key to sign transactions with. Fill in the `PRIVATE_KEY` field with the private key you just generated.
 
+### Fork the Submodule
+Head into the `private-token-workshop-token-template/` submodule of this repository.  Create your own fork of that submodule.
 
 ### Additional Resources:
 - [Aleo Developer Docs](https://developer.aleo.org) 
