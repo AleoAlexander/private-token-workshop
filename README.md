@@ -17,10 +17,13 @@ By the end of the workshop, developers should learn:
 
 # Getting Started
 
+### Fork the Submodule
+Head into the `private-token-workshop-token-template/` submodule of this repository.  Create your own fork of that submodule.
+
 ### Leo Playground
 If you're new to developing or just want to try out the Leo language, check out the **[Leo Playground](https://play.leo-lang.org)**. It's a web-based IDE that's designed to allow developers to build, deploy, and execute programs, all in the browser!  It comes with an editor, Github integrations, and a number of utilities to manage programs and interface with the network.
 
-You can load the project directly into the Leo Playground by navigating into the `private-token-workshop-token-template/` submodule and loading that repo using the Git feature of the playground.
+You can load the project directly into the Leo Playground by connecting your Github account and loading the `private-token-workshop-token-template/` submodule fork you just made.
 
 <!-- ### VSCode / Sublime Text / IntelliJ
 For more experienced developers, the Leo team also maintains plugins for a number of different editors.  For specifics on how to install for your favorite editor, check out the **[Dev Env](https://docs.leo-lang.org/getting_started/ide)** guide for more information
@@ -50,8 +53,6 @@ You'll need some Testnet tokens to deploy and interact with programs onchain.  I
 #### `.env` File
 Once you've funded your account, return back to the Leo Playground with the project loaded in and open the `.env` file.  This file is where you can specify the network and endpoint to broadcast to, as well as the private key to sign transactions with. Fill in the `PRIVATE_KEY` field with the private key you just generated.
 
-### Fork the Submodule
-Head into the `private-token-workshop-token-template/` submodule of this repository.  Create your own fork of that submodule.
 
 ### Additional Resources:
 - [Aleo Developer Docs](https://developer.aleo.org) 
