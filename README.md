@@ -45,7 +45,7 @@ Keep track of all of these, as you'll need them later.
 ### Funding Your Account
 
 #### Testnet Faucet
-You'll need some Testnet tokens to deploy  and interact with programs onchain.  Head over to the official [faucet](faucet.aleo.org) and provide the address you just generated to acquire some.
+You'll need some Testnet tokens to deploy and interact with programs onchain.  If you're partcipiating in an in-person workshop, ask one of the leads to send you some.  Otherwise, head over to the official [faucet](https://faucet.aleo.org).  For the faucet, you'll need to load your account into one of the official wallet providers.  Follow instructions on the page for more information.
 
 #### `.env` File
 Once you've funded your account, return back to the Leo Playground with the project loaded in and open the `.env` file.  This file is where you can specify the network and endpoint to broadcast to, as well as the private key to sign transactions with. Fill in the `PRIVATE_KEY` field with the private key you just generated.
