@@ -1,1 +1,3 @@
 token_solution/
+.env
+.DS_Store
