@@ -172,11 +172,13 @@ Now that you've built and tested your program, you're ready to deploy your progr
 After deploying, you should now be able to interact with your deployed program onchain.
 1. Publicly mint 100 tokens to your address
 
-2. Publicly transfer those tokens to `<WORKSHOP_ADDRESS>`
+2. Publicly transfer those tokens to `<SUBMISSION_ADDRESS>`
    
 3. Privately mint an additional 100 tokens to your address
    
-4. Privately transfer those tokens to `<WORKSHOP_ADDRESS>`
+4. Privately transfer those tokens to `<SUBMISSION_ADDRESS>`
 
 # Rewards
-Devconnect 2025 Submission Link: https://forms.gle/gWG11bzgWCkALwyb9
+## Devconnect 2025 
+Submission Address: aleo16ee2zncu2t6ftcpnnnmyd3c6pf8eu2xfyksh23amwqgvapp6mg8q8hy7e0
+Submission Link: https://forms.gle/gWG11bzgWCkALwyb9
