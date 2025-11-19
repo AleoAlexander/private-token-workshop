@@ -14,7 +14,6 @@ By the end of the workshop, developers should learn:
 - How to implement public/private `transfer` and `mint` functions for that token
 
 
-
 # Getting Started
 
 ### Fork the Submodule
@@ -179,3 +178,5 @@ After deploying, you should now be able to interact with your deployed program o
    
 4. Privately transfer those tokens to `<WORKSHOP_ADDRESS>`
 
+# Rewards
+Devconnect 2025 Submission Link: https://forms.gle/gWG11bzgWCkALwyb9
